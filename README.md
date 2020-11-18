@@ -5,5 +5,12 @@
 ###  2020年-11月-18日:
 
 > 完成 Header-logo Nav
+>
+> 颜色改动请备注位置
+>
+> 图片改动请备注位置
+>
+> 文字内容改动请主动 @我
 
 ![完成 Header-logo Nav](https://img-blog.csdnimg.cn/20201119015723538.gif#pic_center)
+
