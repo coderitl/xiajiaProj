@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* header S */
+
+/*header logo S*/
+#header .header-logo a img {
+  vertical-align: middle;
+}
+
+#header .header-logo {
+  width: 100%;
+  background-color: rgba(230 197 154);
+  /* 颜色删除 图片背景两边显示白色 可自行更改颜色值*/
+}
+
+/*header logo E*/
+
+/* 顶部导航 S */
+#header .headerNav {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  background-color: #eee;
+}
+
+#header .nav {
+  position: absolute;
+  left: 175px;
+  box-shadow: 0 0 2px #eee;
+}
+
+#header .fisUl li {
+  float: left;
+  width: 130px;
+  margin-left: 8px;
+}
+
+#header .fisUl>li>a {
+  padding: 15px 13px;
+}
+
+#header .fisUl>li>a:hover {
+  padding: 15px 13px;
+  color: #fff;
+  transition: color .3s ease-in, background-color .3s ease-in;
+  border-bottom-width: 10px;
+  background-color: rgb(110, 118, 230);
+  transition: background-color .7s ease-in;
+}
+
+#header .arrow {
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  left: 10px;
+  border-top: 5px solid rgb(85, 27, 27);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+#header .fisUl>li:hover .arrow {
+  transform: rotate(-180deg);
+  transition: transform .6s ease-in, border-top .6s ease-in;
+  border-top: 5px solid red;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+/* 二级导航配置 S*/
+#header .sNav {
+  position: relative;
+  left: 1px;
+  top: 0;
+  width: 140px;
+  background-color: red;
+}
+
+#header .sNav li a{
+  position: relative;
+  text-align: center;
+  left: -10px;
+  top: 0;
+  width: 140px;
+  display: block;
+  background-color: #eee;
+}
+#header .sNav li a:hover{
+  color: #fff;
+  background-color: rgba(110, 118, 230,.5);
+  transition: background-color .7s ease-in;
+}
+#header .sNav{
+  display: none;
+}
+#header .nav li:hover .sNav {
+  display: block;
+}
+/* 二级导航配置 E*/
+
+/* 顶部导航 E */
+
+/* header E */
