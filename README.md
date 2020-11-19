@@ -14,3 +14,24 @@
 
 ![完成 Header-logo Nav](https://img-blog.csdnimg.cn/20201119015723538.gif#pic_center)
 
+
+
+###  2020年-11月-19日；
+
+> ```
+> 应用: Animation
+> 
+> 布局: Flex
+> 
+> ```
+
+```css
+图片相对垂直居中:
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+```
+
++ 整体效果预览
+
+  ![布局无坍塌](access/gif/2020-11-19.gif)
