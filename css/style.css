@@ -121,15 +121,27 @@
 
 @keyframes changeImg {
   0% {
-    background: url('../access/img/banner/3.jpg') no-repeat;
+    /*
+      本地:  ../access/img/banner/3.jpg
+      服务器: https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/3.jpg 
+    */
+    background: url('https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/3.jpg') no-repeat;
   }
 
   50% {
-    background: url('../access/img/banner/2.jpg') no-repeat;
+    /*
+       本地: .../access/img/banner/2.jpg
+       服务器: https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/2.jpg
+    */
+    background: url('https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/2.jpg') no-repeat;
   }
 
   100% {
-    background: url('../access/img/banner/right1.jpg') no-repeat;
+    /*
+       本地: ../access/img/banner/right1.jpg
+       服务器: https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/right1.jpg
+    */
+    background: url('https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/right1.jpg') no-repeat;
   }
 }
 
@@ -170,9 +182,11 @@
   height: 94px;
   padding-left: 8px;
   padding-top: 10px;
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255, 255, 255, .5);
 }
-.banmnerFr:hover+ol{
+
+.banmnerFr:hover+ol {
   display: block;
 }
+
 /* banner E */
