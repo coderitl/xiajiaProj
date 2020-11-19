@@ -1,102 +1,178 @@
-@charset "utf-8";
-/* header S */
+#header {
+  position: relative;
+  width: 100%;
+}
 
-/*header logo S*/
-#header .header-logo a img {
+/* 实现图片背景添加 */
+#header .header {
+  background-color: #deb686;
+}
+
+#header .logo img {
   vertical-align: middle;
 }
 
-#header .header-logo {
+.nav {
   width: 100%;
-  background-color: rgba(230 197 154);
-  /* 颜色删除 图片背景两边显示白色 可自行更改颜色值*/
+  height: 50px;
+  background-color: #333;
+  box-shadow: 0 -2ox 2px #000;
 }
 
-/*header logo E*/
-
-/* 顶部导航 S */
-#header .headerNav {
-  position: relative;
-  width: 100%;
-  height: 48px;
-  line-height: 48px;
-  background-color: #eee;
-}
-
-#header .nav {
-  position: absolute;
-  left: 175px;
-  box-shadow: 0 0 2px #eee;
-}
-
-#header .fisUl li {
+.nav ul li {
   float: left;
-  width: 130px;
+  width: 150px;
+  height: 50px;
+  background-color: #5f5d5d;
+  margin-right: 1px;
+}
+
+.nav ul li a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  transition: .3s;
+}
+
+.nav ul li a:hover {
+  position: static;
+  color: rgb(105, 44, 15);
+  animation-delay: 3s;
+  animation: changeColor 2s infinite;
+  background-color: rgba(238, 82, 83, .1);
+}
+
+@keyframes changeColor {
+  0% {
+    background: #1d84b5;
+  }
+
+  50% {
+    background: #00cecb;
+  }
+
+  100% {
+    background: #1d84b5;
+  }
+}
+
+.nav ul li ul li {
+  position: static;
+  z-index: 5;
+  display: none;
+  width: 220px;
+  height: 50px;
+  float: initial;
+  background-color: rgba(1, 163, 164, 1);
+  font-size: 12px;
+}
+
+.nav ul li:hover ul li {
+  position: static;
+  z-index: 1;
+  display: block;
+  border-top: 1xp solid rgba(72, 219, 251, .5);
+}
+
+.arrow {
+  display: inline-block;
+  border-top: 5px solid red;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-left: 5px;
+  margin-top: -2px;
+}
+
+.nav ul li a:hover .arrow {
+  transform: rotate(-180deg);
+  transition: all 1s ease-in-out;
+}
+
+.search {
+  position: absolute;
+  width: 300px;
+  right: 146px;
+  top: 59px;
+  display: inline-block;
+}
+
+
+/* banner S */
+#banner {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+
+  margin-top: 20px;
+}
+
+.bannerFl {
+  z-index: -1;
+  position: static;
+  background-color: #00cecb;
+  width: 688px;
+  height: 300px;
+  float: left;
+  background: url('../access/img/banner/3.jpg') no-repeat;
+  background-size: cover;
+  animation: changeImg 5s ease-in-out infinite;
+}
+
+@keyframes changeImg {
+  0% {
+    background: url('../access/img/banner/3.jpg') no-repeat;
+  }
+
+  50% {
+    background: url('../access/img/banner/2.jpg') no-repeat;
+  }
+
+  100% {
+    background: url('../access/img/banner/right1.jpg') no-repeat;
+  }
+}
+
+.banmnerFr ul li {
+  float: left;
   margin-left: 8px;
 }
 
-#header .fisUl>li>a {
-  padding: 15px 13px;
+.banmnerFr ul li:nth-child(3),
+.banmnerFr ul li:nth-child(4),
+.banmnerFr ul li:nth-child(5),
+.banmnerFr ul li:nth-child(6) {
+  margin-top: 10px;
 }
 
-#header .fisUl>li>a:hover {
-  padding: 15px 13px;
-  color: #fff;
-  transition: color .3s ease-in, background-color .3s ease-in;
-  border-bottom-width: 10px;
-  background-color: rgb(110, 118, 230);
-  transition: background-color .7s ease-in;
+.banmnerFr ul li img {
+  width: 250px;
+  vertical-align: middle;
 }
 
-#header .arrow {
-  display: inline-block;
+.banmnerFr {
   position: relative;
-  top: -2px;
-  left: 10px;
-  border-top: 5px solid rgb(85, 27, 27);
-  border-right: 5px solid transparent;
-  border-left: 5px solid transparent;
 }
 
-#header .fisUl>li:hover .arrow {
-  transform: rotate(-180deg);
-  transition: transform .6s ease-in, border-top .6s ease-in;
-  border-top: 5px solid red;
-  border-right: 5px solid transparent;
-  border-left: 5px solid transparent;
-}
-
-/* 二级导航配置 S*/
-#header .sNav {
-  position: relative;
-  left: 1px;
-  top: 0;
-  width: 140px;
-  background-color: red;
-}
-
-#header .sNav li a{
-  position: relative;
-  text-align: center;
-  left: -10px;
-  top: 0;
-  width: 140px;
-  display: block;
-  background-color: #eee;
-}
-#header .sNav li a:hover{
-  color: #fff;
-  background-color: rgba(110, 118, 230,.5);
-  transition: background-color .7s ease-in;
-}
-#header .sNav{
+.banmnerFr ol {
   display: none;
+  position: absolute;
+  width: 532px;
+  right: 0;
 }
-#header .nav li:hover .sNav {
+
+.banmnerFr ol li {
+  overflow: hidden;
+  font-size: 12px;
+  float: left;
+  color: #fff;
+  width: 250px;
+  height: 94px;
+  padding-left: 8px;
+  padding-top: 10px;
+  background-color: rgba(255,255,255,.5);
+}
+.banmnerFr:hover+ol{
   display: block;
 }
-/* 二级导航配置 E*/
-
-/* 顶部导航 E */
-
-/* header E */
+/* banner E */
