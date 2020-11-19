@@ -37,6 +37,7 @@
 
 .nav ul li a:hover {
   position: static;
+  cursor: pointer;
   color: rgb(105, 44, 15);
   animation-delay: 3s;
   animation: changeColor 2s infinite;
@@ -69,6 +70,7 @@
 }
 
 .nav ul li:hover ul li {
+  cursor: pointer;
   position: static;
   z-index: 1;
   display: block;
@@ -85,6 +87,7 @@
 }
 
 .nav ul li a:hover .arrow {
+  cursor: pointer;
   transform: rotate(-180deg);
   transition: all 1s ease-in-out;
 }
@@ -187,6 +190,7 @@
 
 .banmnerFr:hover+ol {
   display: block;
+  cursor: pointer;
 }
 
 /* banner E */
