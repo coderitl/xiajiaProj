@@ -133,7 +133,7 @@
        本地: .../access/img/banner/2.jpg
        服务器: https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/2.jpg
     */
-    background: url('https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/2.jpg') no-repeat;
+    background: url('https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/2.jpg') no-repeat;
   }
 
   100% {
@@ -141,7 +141,7 @@
        本地: ../access/img/banner/right1.jpg
        服务器: https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/right1.jpg
     */
-    background: url('https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/right1.jpg') no-repeat;
+    background: url('https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/right1.jpg') no-repeat;
   }
 }
 
