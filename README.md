@@ -4,13 +4,17 @@
 
 ###  2020年-11月-18日:
 
+> 
+>
 > 完成 Header-logo Nav
 >
-> 颜色改动请备注位置
+> 背景颜色改动
 >
-> 图片改动请备注位置
+> 图片改动
 >
-> 文字内容改动请主动 @我
+> 文本信息改动
+>
+> 
 
 ![完成 Header-logo Nav](https://img-blog.csdnimg.cn/20201119015723538.gif#pic_center)
 
@@ -42,4 +46,21 @@
 
 + 修复搜索框显示问题
 
-  
+  ![最终使用](https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/searchBtn.png)
+
++ 修复`card`背景颜色显示
+
+  + 采用
+
+  + 添加`css3 animation`
+
+  + 使用linear-gradient
+
+    + 原图:
+
+      ![背景色未修复前](https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/fixCard.png)
+
+    + 修复后(维护中······)
+
++ 准备轮播图实现
++ 添加新布局
