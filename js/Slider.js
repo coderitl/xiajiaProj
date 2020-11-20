@@ -52,12 +52,12 @@ rmTimer.addEventListener("mouseenter", function () {
   clearInterval(timer);
   // 清除定时器变量
   timer = null;
-  console.log('鼠标移入,清除定时器···');
+  console.log("鼠标移入,清除定时器···");
 });
 rmTimer.addEventListener("mouseleave", function () {
   // 鼠标移出开启定时器
   timer = setInterval(function () {
     nextSlider();
   }, 2000);
-  console.log('鼠标移入,开启定时器···');
+  console.log("鼠标移入,开启定时器···");
 });
