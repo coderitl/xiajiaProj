@@ -14,9 +14,7 @@
   <!-- 引入网页共同样式 commen -->
   <link rel="stylesheet" href="css/commen.css">
   <!-- 引入轮播图 -->
-  <link rel="stylesheet" href="css/Carousel.css">
-  <!-- 引入 banner js -->
-  <script src="./js/banner.js"></script>
+  <link rel="stylesheet" href="css/Slider.css">
 
 </head>
 
@@ -143,38 +141,62 @@ E -- End
 
 
 <!--
-Carousel(轮播图) 单独封装引入 S
+Slider(轮播图) 单独封装引入 S
 localSr：用于替换服务器图片失效
 yunSrc: 为了方便你迅速查看，预览效果（为个人服务器）
 -->
 
-  <div id="Carousel">
-    <div class="carousel">
-      <ul>
-        <!--
-                      localSrc: access/img/Carousel/1.JPG
-                      yunSrc: https://img-blog.csdnimg.cn/20201119182956160.JPG
-                 -->
-        <li><a href="#"> <img src="https://img-blog.csdnimg.cn/20201119182956160.JPG" alt="加载中···"> </a></li>
-        <!--
-                     localSrc: access/img/Carousel/2.JPG
-                     yunSrc: https://img-blog.csdnimg.cn/20201119182955912.JPG
-                -->
-        <li><a href="#"> <img src="https://img-blog.csdnimg.cn/20201119182955912.JPG" alt="加载中···"> </a></li>
-        <!--
-                     localSrc: access/img/Carousel/3.JPG
-                     yunSrc: https://img-blog.csdnimg.cn/20201119182955912.JPG
-                -->
-        <li><a href="#"> <img src="https://img-blog.csdnimg.cn/20201119182955912.JPG" alt="加载中···"> </a></li>
-        <!--
-                     localSrc: access/img/Carousel/4.JPG
-                     yunSrc: https://img-blog.csdnimg.cn/20201119182955572.JPG
-                -->
-        <li><a href="#"> <img src="https://img-blog.csdnimg.cn/20201119182955572.JPG" alt="加载中···"> </a></li>
-      </ul>
+  <div id="Slider">
+    <div class="slider current">
+      <div class="sContent">
+        <h1>第一页</h1>
+        <p>
+          1924年，安特生(瑞典地质学家兼考古学家)在甘肃临洮马家窑村发现一处远古文化遗址，
+          定名为仰韶文化马家窑期，在当地收集了大量的代表华夏文化的彩陶器皿。个沉寂几千年的远古文化，
+          第一次以马家窑期之名出现在世人面前！
+        </p>
+      </div>
+    </div>
+
+    <div class="slider">
+      <div class="sContent">
+        <h1>第二页</h1>
+        <p>国史前考古学以及近代田野考古学是从安生开始的。上个世纪二十年代前后，安特生在中国北方进行了一系列的考古活动，
+          揭开了中国近代考古学的序幕。他也由此被人们誉为中国考古学的奠基人。
+          然而，在过去相当长的时期里，安特生却被些人横加指责，以至于这位中国考古学的开路者被人们产生了诸多的误解。</p>
+      </div>
+    </div>
+
+    <div class="slider">
+      <div class="sContent">
+        <h1>第三页</h1>
+        <p> 5月， 记者就安特生在甘肃的相关活动情况，以及如何认识安特生在中国北方及其兰州周边进行的考古活动，采访了我省考古学家郎树德先生。
+          郎先生长期致力于西北史前文化的研究，曾主持了大地湾等古遗址的发掘。他给我们讲述了他所了解的安特生的相关情况。
+          马家窑的发现。今天人们说起我国史前文化的代表器物彩陶，总是不由自主地要提到:马家窑、半山、马厂、辛店、齐家、等名词。
+          它们是中国彩陶及史前文化的断代分期的名词，</p>
+      </div>
+    </div>
+
+    <div class="slider">
+      <div class="sContent">
+        <h1>第四页</h1>
+        <p>他到中国时，正是军阀混战之时，战乱不断，人民流离失所，找矿只能成为一句空话。
+          看到采矿、找矿工作无法按计划进行，安特生只好向当时担任中国地质调查所所长的丁文江提出采集古生物化石的计划。
+          当时，双方商定所采化石归中国地质调查所和瑞典一些博物
+          馆所收藏。</p>
+      </div>
+    </div>
+    <!-- 
+      prev: 上一页
+      next: 下一页
+     -->
+    <div class="buttons">
+      <a href="javascript:void(0)" id="prev"> <img src="access/img/Slider/changeBtn.png" alt=""></a>
+      <a href="javascript:void(0)" id="next"> <img src="access/img/Slider/changeBtn.png" alt=""></a>
     </div>
   </div>
-  <!-- Carousel E -->
+  <!-- Slider E -->
+
 
   <!-- Flex S -->
   <div id="cardShow">
@@ -286,21 +308,23 @@ yunSrc: 为了方便你迅速查看，预览效果（为个人服务器）
   </div>
   <!-- Flex E -->
 
-  
+
   <!-- categories S -->
-    <div id="mainDo">
-      <div class="maindo center">
-        <div class="div_title">
-          <img src="access/img/card/lo.png" alt="">
-          <span class="dTitle"> ··· Infomation ···· </span>
-          <img src="access/img/card/lo.png" alt="">
-        </div>
-      </div>
-      <div class="spider">
-        
+  <div id="mainDo">
+    <div class="maindo center">
+      <div class="div_title">
+        <img src="access/img/card/lo.png" alt="">
+        <span class="dTitle"> ··· Infomation ···· </span>
+        <img src="access/img/card/lo.png" alt="">
       </div>
     </div>
+    <div class="spider">
+
+    </div>
+  </div>
   <!-- categories E -->
+  <!-- 引入 banner js -->
+  <script src="./js/Slider.js"></script>
 </body>
 
 </html>
