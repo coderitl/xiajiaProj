@@ -43,7 +43,7 @@ prev.addEventListener("click", function () {
 // 定时器
 var timer = setInterval(function () {
   nextSlider();
-}, 2000);
+}, 5000);
 
 // 鼠标移入移除
 var rmTimer = document.querySelector("#Slider ");

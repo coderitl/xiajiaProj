@@ -63,4 +63,15 @@
     + 修复后(维护中······)
 
 + 准备轮播图实现
+
+  + 存在一条 `bug`
+
+    + `bug`描述:  在判断了最后一张图片的情况下,`next`事件依然显示一张空白背景
+
+      
+
 + 添加新布局
+
+
+
+> https://lovobin.github.io/Gansu-University-Painted-Pottery-Network/   （布局展示）
