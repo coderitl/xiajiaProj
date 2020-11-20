@@ -230,8 +230,14 @@
 /* Flex S */
 #cardShow {
   width: 100%;
-  background-color: #F3F3F3;
+  /* 颜色更新: #e0bc99*/
+  background-color: rgba(199, 191, 188, 0.5);
   padding-top: 50px;
+  /*
+    时间: 2020-11-20 19:28
+    更新 padding-bottom： 20px;
+  */
+  padding-bottom: 20px;
 }
 
 .cardShow {
@@ -248,23 +254,28 @@
 }
 
 #cardShow .cardLeft {
-  background-color: #2395CB;
+  /* 
+    颜色更新 2020-11-20 19:26 
+    原颜色: #2395CB
+    新颜色: #a58a81
+*/
+  background-color: #a58a81;
   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 #cardShow .cardCenter {
-  background-color: #3ED1A4;
+  background-color: #9d7d56;
   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 #cardShow .cardRight {
-  background-color: #ee8400;
+  background-color: #844933;
   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 .top {
   height: 280px;
-  box-shadow: 1px 1px 10px #3ED1A4;
+  box-shadow: 1px 1px 10px rgba(132, 73, 51);
 }
 
 .btm {
@@ -286,15 +297,15 @@
 }
 
 .arrow1 {
-  border-top: 15px solid #2395CB;
+  border-top: 15px solid #a58a81;
 }
 
 .arrow2 {
-  border-top: 15px solid #3ED1A4;
+  border-top: 15px solid #9d7d56;
 }
 
 .arrow3 {
-  border-top: 15px solid #ee8400;
+  border-top: 15px solid #844933;
 }
 
 .borderaRadius {
@@ -391,122 +402,5 @@
 /* Flex E*/
 
 /* mainDo S */
-#mainDo {
-  position: relative;
-  width: 100%;
-  margin-top: 45px;
-  background-color: rgba(245, 142, 74, .4);
-  box-shadow: 0 0 10px red;
-}
-
-#mainDo .maindo {
-  height: 300px;
-}
-
-#mainDo .div_title {
-  text-align: center;
-}
-
-#mainDo .div_title img {
-  width: 160px;
-}
-
-.dTitle {
-  position: absolute;
-  left: 50%;
-  top: 57px;
-  transform: translate(-50%);
-  display: inline-block;
-  font-size: 20px;
-  font-weight: 800;
-}
-
-.spider {
-  position: absolute;
-  top: 160px;
-  left: 50%;
-  transform: translate(-50%);
-  width: 90%;
-  height: 500px;
-  background: url('../access/img/bg/02.jpg') no-repeat;
-  background-size: cover;
-  animation: bgChange 8s infinite;
-  opacity: .5;
-  cursor: pointer;
-  border-radius: 8px;
-  box-shadow: 0 0 13px rgba(0, 0, 0, .7);
-
-}
-
-@keyframes bgChange {
-  0% {
-    position: absolute;
-    top: 160px;
-    left: 50%;
-    transform: translate(-50%);
-    width: 90%;
-    height: 500px;
-    background: url('../access/img/bg/02.jpg') no-repeat;
-    background-size: cover;
-    box-shadow: 2px 2px 13px rgba(0, 0, 0, .7);
-    border-radius: 8px;
-  }
-
-  25% {
-    position: absolute;
-    top: 160px;
-    left: 50%;
-    transform: translate(-50%);
-    width: 90%;
-    height: 500px;
-    background: url('../access/img/bg/3.jpg') no-repeat;
-    background-size: cover;
-    box-shadow: 2px 2px 13px rgba(0, 0, 0, .7);
-
-    border-radius: 8px;
-  }
-
-  50% {
-    position: absolute;
-    top: 160px;
-    left: 50%;
-    transform: translate(-50%);
-    width: 90%;
-    height: 500px;
-    background: url('../access/img/bg/4.jpg') no-repeat;
-    background-size: cover;
-    box-shadow: 2px 2px 13px rgba(0, 0, 0, .7);
-
-    border-radius: 8px;
-  }
-
-  75% {
-    position: absolute;
-    top: 160px;
-    left: 50%;
-    transform: translate(-50%);
-    width: 90%;
-    height: 500px;
-    background: url('../access/img/bg/5.jpg') no-repeat;
-    background-size: cover;
-    box-shadow: 2px 2px 13px rgba(0, 0, 0, .7);
-
-    border-radius: 8px;
-  }
-
-  100% {
-    position: absolute;
-    top: 160px;
-    left: 50%;
-    transform: translate(-50%);
-    width: 90%;
-    height: 500px;
-    background: url('../access/img/bg/02.jpg') no-repeat;
-    background-size: cover;
-    box-shadow: 2px 2px 13px rgba(0, 0, 0, .7);
-
-    border-radius: 8px;
-  }
-}
 
 /* mainDo E */

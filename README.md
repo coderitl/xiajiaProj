@@ -2,6 +2,15 @@
 
 中文名:  <a href="javascript:void(0)">甘肃大学生彩陶网</a>
 
+>  `ICO在线制作推荐:` https://tool.lu/favicon/
+>
+> ​	使用方法:  
+>
+> 		+ 上传图片,剪裁
+> 		+ 点击下载,跳转后右击另存为(`*.ico`文件)
+>
+>  
+
 ###  2020年-11月-18日:
 
 > 
@@ -56,10 +65,22 @@
 
   + 使用linear-gradient
 
+    + ` linear-gradient()`推荐:
+
+      >  
+    >
+      >  https: //webgradients.com/
+      >
+      > 
+      >
+      >  https: //gradient.shapefactory.co/
+      >
+      > 
+    
     + 原图:
-
+    
       ![背景色未修复前](https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/fixCard.png)
-
+    
     + 修复后(维护中······)
 
 + 准备轮播图实现
@@ -68,10 +89,12 @@
 
     + `bug`描述:  在判断了最后一张图片的情况下,`next`事件依然显示一张空白背景
 
-      
-
 + 添加新布局
 
 
 
+> 
+>
 > https://lovobin.github.io/Gansu-University-Painted-Pottery-Network/   （布局展示）
+>
+> 

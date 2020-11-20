@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#main {
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+.mainT {
+  display: block;
+  width: 1226px;
+  text-align: center;
+  height: 55px;
+  line-height: 55px;
+  font-size: 16px;
+  text-shadow: 0 0 1px rgb(243, 119, 47);
+  box-shadow: 0 0 10px rgba(90, 55, 34, .6);
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  transition: background .4s;
+  /*
+   linear-gradient()
+   推荐网址: 
+          https: //webgradients.com/
+          https: //gradient.shapefactory.co/
+  */
+}
+
+.mainT:hover {
+  color: rgb(216, 94, 13);
+  background-color: yellow;
+}
