@@ -1,18 +1,18 @@
 @charset "utf-8";
 /* footer S*/
-#footer{
-  position: absolute;
-  width: 100%;
-  height: 150px;
-  margin-top: 200px;
-  background-color: #333333;
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    margin-top: 200px;
+    background-color: #333333;
 }
 
 /* footer E*/
-#footer p{
-  margin-top: 10px;
-  text-align: center;
-  color: #fff;
-  height: 35px;
-  line-height: 35px;
+#footer p {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
 }
