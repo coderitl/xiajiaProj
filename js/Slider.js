@@ -35,8 +35,29 @@ const prevSlider = function () {
 // click Event
 next.addEventListener("click", function () {
   nextSlider();
-  
 });
 prev.addEventListener("click", function () {
   prevSlider();
+});
+
+// 定时器
+var timer = setInterval(function () {
+  nextSlider();
+}, 2000);
+
+// 鼠标移入移除
+var rmTimer = document.querySelector("#Slider ");
+rmTimer.addEventListener("mouseenter", function () {
+  // 鼠标移入清除 定时器
+  clearInterval(timer);
+  // 清除定时器变量
+  timer = null;
+  console.log('鼠标移入,清除定时器···');
+});
+rmTimer.addEventListener("mouseleave", function () {
+  // 鼠标移出开启定时器
+  timer = setInterval(function () {
+    nextSlider();
+  }, 2000);
+  console.log('鼠标移入,开启定时器···');
 });
