@@ -2,6 +2,12 @@
 
 中文名:  <a href="javascript:void(0)">甘肃大学生彩陶网</a>
 
+>
+>
+><a href="https://lovobin.github.io/Gansu-University-Painted-Pottery-Network/index.html">https://lovobin.github.io/Gansu-University-Painted-Pottery-Network/ </a>  （布局展示）
+>
+>
+
 >  `ICO在线制作推荐:` https://tool.lu/favicon/
 >
 > ​	使用方法:  
@@ -206,8 +212,5 @@
 
 
 
-> 
->
-> https://lovobin.github.io/Gansu-University-Painted-Pottery-Network/   （布局展示）
->
-> 
+
+
