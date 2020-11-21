@@ -275,6 +275,10 @@
 
 + 添加返回顶部与返回首页功能
 
++ `GoTop`
+
+  ![当经过某一元素高度时显示该元素](https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/gotop.png)
+  
   + 鼠标滚轮事件
   
     ```javascript
