@@ -79,11 +79,11 @@
       >
       > 
       >
-      > <a href="https: //webgradients.com/">https: //webgradients.com/</a>
+      > <a href="https://webgradients.com/">https: //webgradients.com/</a>
       >
       > 
       >
-      > <a href="https: //gradient.shapefactory.co/">https: //gradient.shapefactory.co/</a>
+      > <a href="https://gradient.shapefactory.co/">https: //gradient.shapefactory.co/</a>
       >
       > 
     
