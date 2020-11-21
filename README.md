@@ -189,7 +189,7 @@
   <!-- 
       彩陶文化: Painted pottery culture
       
-  	ID简称: ppc
+  ID简称: ppc
   -->
   ```
 
