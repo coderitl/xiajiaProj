@@ -154,10 +154,12 @@
 
 .bow {
     margin-top: 45px;
+    box-shadow: 0 5px 15px rgba(224, 119, 33, 0.4);
 }
 
 .bow img {
     width: 370px;
+    border-radius: 3px;
 }
 
 .bow img:nth-child(1) {
