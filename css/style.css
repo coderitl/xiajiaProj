@@ -278,7 +278,7 @@
 
 .top {
     height: 280px;
-    box-shadow: 1px 1px 10px rgba(132, 73, 51);
+    box-shadow: 1px 1px 10px rgba(132, 73, 51,.9);
 }
 
 .btm {
@@ -407,3 +407,24 @@
 }
 
 /* Flex E*/
+
+
+/* GoTop S */
+
+.goTop .gotop{
+    color: red;
+    position: fixed;
+    bottom: 270px;
+    transform: translate(0,-50%);
+    width: 60px;
+    height: 60px;
+    right: 15px;
+    line-height: 60px;
+    background-color: rgba(232, 255, 255,.8);
+    border-radius: 50%;
+    text-align: center;
+    opacity: 0;
+    font-weight: bold;
+}
+
+/* GoTop E */
