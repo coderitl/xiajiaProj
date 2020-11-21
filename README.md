@@ -73,19 +73,13 @@
       >
       > 
       >
-      > https: //webgradients.com/
+      > <a href="https: //webgradients.com/">https: //webgradients.com/</a>
       >
       > 
       >
-      > https: //gradient.shapefactory.co/
+      > <a href="https: //gradient.shapefactory.co/">https: //gradient.shapefactory.co/</a>
       >
       > 
-      
-      
-    
-    
-    
-    
     
     + 原图:
     
