@@ -94,7 +94,7 @@
 .search {
     position: absolute;
     width: 300px;
-    right: 33px;
+    right: 0;
     top: 59px;
     display: inline-block;
 }
@@ -216,7 +216,10 @@
     padding-bottom: 15px;
     box-shadow: 0 0 10px #eee;
 }
-
+#textInfo p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .title {
     font-weight: 700;
     color: #000;
