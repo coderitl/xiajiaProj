@@ -57,7 +57,7 @@ rmTimer.addEventListener("mouseenter", function () {
 rmTimer.addEventListener("mouseleave", function () {
     // 鼠标移出开启定时器
     timer = setInterval(function () {
-        nextSlider();
+         nextSlider();
     }, 2000);
     console.log("鼠标移入,开启定时器···");
 });
