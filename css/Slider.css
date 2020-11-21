@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 #Slider {
-    background-color: #333;
+    background: url('https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/01.jpg');
     color: #fff;
     line-height: 27px;
     position: relative;
@@ -87,7 +87,7 @@ h1 {
 .slider:nth-child(1) {
     /*
     localSrc: ../access/img/Slider/01.jpg
-    yunSrc: https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/01.jpg
+    yunSrc: https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/01.jpg
     */
     background: url('https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/01.jpg') no-repeat center center/cover;
 }

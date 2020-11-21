@@ -397,9 +397,9 @@
 .cicrl li a {
     color: #555;
 }
+.cicrl li a:hover{
+  text-decoration: underline rgb(248, 103, 36);
+  transition: all .5s ease-in;
+}
 
 /* Flex E*/
-
-/* mainDo S */
-
-/* mainDo E */
