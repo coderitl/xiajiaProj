@@ -110,10 +110,8 @@
 }
 
 .bannerFl {
-
     z-index: 1;
     position: static;
-    background-color: #00cecb;
     width: 967px;
     height: 400px;
     float: left;
@@ -134,17 +132,17 @@
 
     50% {
         /*
-                       本地: .../access/img/banner/2.jpg
-                       服务器: https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/2.jpg
-                    */
+          localSrc: .../access/img/banner/2.jpg
+          yunSrc: https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/2.jpg
+       */
         background: url('https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/2.jpg') no-repeat;
     }
 
     100% {
         /*
-                       本地: ../access/img/banner/right1.jpg
-                       服务器: https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/right1.jpg
-                    */
+          localSrc: ../access/img/banner/right1.jpg
+          yunSrc: https: //gitee.com/wang_hong_bin/pic-go-photos/raw/master/right1.jpg
+       */
         background: url('https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/right1.jpg') no-repeat;
     }
 }
@@ -216,10 +214,12 @@
     padding-bottom: 15px;
     box-shadow: 0 0 10px #eee;
 }
-#textInfo p{
+
+#textInfo p {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .title {
     font-weight: 700;
     color: #000;
@@ -400,9 +400,10 @@
 .cicrl li a {
     color: #555;
 }
-.cicrl li a:hover{
-  text-decoration: underline rgb(248, 103, 36);
-  transition: all .5s ease-in;
+
+.cicrl li a:hover {
+    text-decoration: underline rgb(248, 103, 36);
+    transition: all .5s ease-in;
 }
 
 /* Flex E*/

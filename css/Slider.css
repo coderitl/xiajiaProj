@@ -44,7 +44,7 @@ h1 {
 #next {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%);
     width: 35px;
     height: 35px;
     background-color: rgb(221, 101, 101);
@@ -59,15 +59,17 @@ h1 {
     left: 50px;
     top: 40vh;
 }
+
 #prev,
-#next{
-  display: none;
+#next {
+    display: none;
 }
+
 #Slider:hover #prev,
 #Slider:hover #next {
-  display: block;
-  transition: all .4s ease-in-out;
+    display: block;
 }
+
 #next {
     position: absolute;
     right: 50px;
@@ -130,7 +132,7 @@ h1 {
     position: absolute;
     bottom: 30px;
     left: -1295px;
-    width: 440px;
+    width: 430px;
     color: #000;
     background-color: rgba(255, 255, 255, .5);
     padding: 25px;
