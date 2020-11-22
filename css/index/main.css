@@ -49,7 +49,7 @@ S: main
     text-align: center;
     font-weight: 700;
     height: 49px;
-    line-height: 49px;
+    line-height: 36px;
     background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
 }
