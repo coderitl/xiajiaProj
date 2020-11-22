@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* S: ac-header  */
+#ac-header {
+  /* 
+  颜色较深:
+    color1: #f6d365
+    color2: fda085
+  */
+  background-image: linear-gradient(120deg, rgb(220, 114, 25, .3) 80%, rgba(123, 145, 167, .8) 100%);
+  box-shadow: 0 5px 12px #ccc;
+  position: relative;
+  height: 100px;
+  line-height: 82px;
+}
+
+.ac-nav {
+  box-sizing: border-box;
+  height: 100px;
+  line-height: 82px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: -1220px;
+}
+
+.ac-nav ul li a {
+  float: left;
+  font-size: 14px;
+  padding: 9px 20px;
+  /* 
+    margin： 9px 16px 图解 
+    https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/ac-margin.png
+  */
+}
+
+.ac-nav ul li a:hover {
+  color: red;
+  transition: color .5s;
+  text-shadow: 0 0 2px blue;
+
+}
+
+/* E: ac-header  */
