@@ -67,9 +67,9 @@ rmTimer.addEventListener("mouseleave", function () {
 
 // 获取返回顶部按钮
 var gotop = document.querySelector('.gotop');
-// 获取 main 的偏移量
+// 获取 cardShow 的偏移量
 var cardShow = document.querySelector('#cardShow');
-// 当 main 出现时,返回顶部按钮显示
+// 当 cardShow 出现时,返回顶部按钮显示
 var cardShowTop = cardShow.offsetTop;
 document.addEventListener('scroll', function () {
     if (window.pageYOffset >= cardShowTop) {
