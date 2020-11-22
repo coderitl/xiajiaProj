@@ -1,192 +1,200 @@
 @charset "utf-8";
-
-#main {
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #eee;
-  position: relative;
-}
-
-.mainT {
-  display: block;
-  width: 100%;
-  text-align: center;
-  height: 55px;
-  line-height: 55px;
-  font-size: 16px;
-  text-shadow: 0 0 1px rgb(243, 119, 47);
-  box-shadow: 0 0 10px rgba(90, 55, 34, .6);
-  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
-  transition: background .4s;
-  /*
-     linear-gradient()
-     推荐网址:
-            https: //webgradients.com/
-            https: //gradient.shapefactory.co/
-    */
-}
-
-.mainT:hover {
-  color: rgb(216, 94, 13);
-  background-color: yellow;
-}
-
-/* mainImg S*/
-.imgL {
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.imgR img,
-.imgL img {
-  float: left;
-  width: 500px;
-  overflow: hidden;
-  vertical-align: middle;
-}
-
-.mainInfo {
-  position: absolute;
-  width: 500px;
-  height: 353px;
-  overflow: hidden;
-  margin-left: 30px;
-  color: #fff;
-  background: rgba(142, 2, 1, .4);
-}
-
-.mainInfo li {
-  text-indent: 2rem;
-  height: 35px;
-  line-height: 35px;
-  list-style: square;
-  /*
-    list-style:
-      1. disc 实心圆
-      2. circle 空心圆
-      3. square 实心方块
-    */
-  color: #eee;
-  padding-left: 5px;
-}
-
-.mainInfo h1 {
-  padding: 20px;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.mainLine {
-  position: absolute;
-  left: 40px;
-  top: 200px;
-  display: inline-block;
-  width: 400px;
-  height: 1px;
-  box-shadow: 0 0 5px red;
-  background-color: #ccc;
-}
-
-.mainOl {
-  margin-left: 30px;
-  padding-top: 40px;
-}
-
-.mainOl li {
-  list-style: circle;
-}
-
-.mainOl li a {
-  color: #fff;
-}
-
-.mainOl li a:hover {
-  color: #f3eb96;
-  transition: all .6s ease-in-out;
-  text-decoration: underline yellow;
-}
-
-.imgR img {
-  width: 500px;
-  height: 353px;
-}
-
-.imgR img:hover {
-  width: 500px;
-  height: 353px;
-  display: inline-block;
-  animation: run 1s;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-@keyframes run {
-  0% {
-    transform: scale(0.8);
-    overflow: hidden;
-  }
-
-  25% {
-    transform: scale(1.2);
-    overflow: hidden;
-  }
-
-  50% {
-    transform: scale(1);
-    overflow: hidden;
-  }
-
-  75% {
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-
-}
-
-.mainRight img {
-  margin-left: 40px;
-  width: 410px;
-}
-
-.bow {
-  margin-top: 45px;
-  box-shadow: 0 5px 15px rgba(224, 119, 33, 0.4);
-  padding-bottom: 20px;
-}
-
-.bow img {
-  width: 320px;
-  border-radius: 3px;
-}
-
-.bow img:nth-child(1) {
-  margin-left: 12px;
-}
-
-.po-l {
-  position: absolute;
-  width: 1002px;
-  height: 140px;
-  top: 445px;
-  left: 30px;
-  vertical-align: middle;
-  display: flex;
-}
-
-.po-l img {
-  width: 220px;
-  margin-left: 30px;
-}
-
-.mainImg {
-
-  /* 
-      Test: bg-size
-      background-color: red;
+/* 定义变量 */
+/*
+S: main
+  Less编译软件: koala
+  软件下载推荐: http://koala-app.com/
+  官网样式: https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/Koala.png
+  要点注意:
+    平级使用:  & + ···
   */
+#main {
+    width: 100%;
+    height: 100%;
+    /* 学术展览 */
+    /* 模拟 hr ==  Horizontal line */
+    /*
+      鼠标进入图片发生缩放动画
+        选取目标 --> .hoverScal
+        添加关键帧动画  --> 放大缩小
+
+        S: animation
+    */
+    /* E: animation */
+    /* S: bottom-image */
+    /* S: imgR-Box*/
+    /* E: imgR-Box*/
 }
 
-/* mainImg E*/
+#main .imgL-Box > a > img {
+    max-width: 595px;
+    width: 500px;
+    height: 446px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#main .center {
+    transform: translateY(25px);
+    width: 100%;
+    height: 100%;
+    margin-left: 58px;
+    position: relative;
+}
+
+#main .title {
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    height: 49px;
+    line-height: 49px;
+    background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+#main .title:hover {
+    color: #d85e0d;
+    background-color: yellow;
+    cursor: pointer;
+    transition: all 0.9s ease-in-out;
+}
+
+#main .imgL-Box .hoverScal .ac-Show {
+    height: 35px;
+    line-height: 35px;
+}
+
+#main .hiddenText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000;
+    width: 459px;
+    height: 396px;
+    padding-top: 50px;
+    padding-left: 45px;
+    background-color: rgba(143, 3, 2, 0.6);
+}
+
+#main .ac-Show {
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#main .hiddenText p {
+    width: 400px;
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    padding: 20px 0 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#main .text-line {
+    width: 400px;
+    display: block;
+    margin-top: 75px;
+    border-top: 1px solid #a02928;
+    border-bottom: 1px solid #7a0302;
+}
+
+#main .hiddenText .ul-info li {
+    list-style: "\1F44D";
+    /* 可选: disc 实心圆 */
+    margin-left: 16px;
+    margin-top: 29px;
+}
+
+#main .hiddenText .ul-info li a {
+    color: #fff;
+}
+
+#main .hiddenText .ul-info li span {
+    padding-left: 6px;
+    display: block;
+    font-size: 17px;
+    padding-bottom: 12px;
+    width: 80%;
+}
+
+#main .hiddenText .ul-info li span:hover {
+    border-bottom: 1px solid red;
+    color: #e3c57e;
+    transition: all 3s ease-in-out;
+}
+
+#main .imgL-Box a:nth-child(2) {
+    display: inline-block;
+    max-width: 500px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#main .imgL-Box .hoverScal:hover {
+    width: 500px;
+    height: 446px;
+    overflow: hidden;
+    opacity: 1;
+    animation: scaleImg 3s .3s;
+}
+
+@keyframes scaleImg {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        transition: all 2s ease-in-out;
+    }
+    50% {
+        opacity: .5;
+        transform: scale(1.3);
+        transition: all 2s ease-in-out;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        transition: all 2s ease-in-out;
+    }
+}
+
+#main .bottom-img {
+    display: flex;
+    position: absolute;
+    width: 1045px;
+    top: 480px;
+    left: 0;
+}
+
+#main .bottom-img a {
+    flex: 1;
+    float: left;
+}
+
+#main .bottom-img a img {
+    width: 223px;
+}
+
+#main .imgR-Box {
+    position: absolute;
+    left: 1020px;
+    top: 0;
+}
+
+#main .imgR-Box a img {
+    width: 400px;
+    height: 626px;
+}
+
+#main .main-bx {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(217, 58, 10, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/* E: main */
