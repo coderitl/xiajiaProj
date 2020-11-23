@@ -1,5 +1,13 @@
 #Fe-header {
   width: 100%;
+  /* S: .imgTop */
+  /* E: imgBottom */
+  /* S: textShow */
+  /* E: textShow */
+  /* S: marquee */
+  /*E: marquee */
+  /*S: .footer*/
+  /*E: .footer*/
 }
 #Fe-header .fe-nav {
   box-sizing: border-box;
@@ -130,4 +138,68 @@
   height: 233px;
   background-color: rgba(255, 255, 255, 0.5);
   transition: all 0.5s ease-in-out;
+}
+#Fe-header .fe-ImgL {
+  width: 1227px;
+}
+#Fe-header .fe-ImgR,
+#Fe-header .imgTop {
+  width: 613px;
+  float: left;
+}
+#Fe-header .imtBottom {
+  float: left;
+}
+#Fe-header .imtBottom img {
+  width: 613px;
+  height: 561px;
+}
+#Fe-header .imgTop img {
+  width: 613px;
+}
+#Fe-header .fe-ImgR {
+  float: right;
+}
+#Fe-header .fe-ImgR img {
+  width: 613px;
+}
+#Fe-header .textShow {
+  box-sizing: border-box;
+  margin-top: 40px;
+  clear: both;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  text-indent: 2rem;
+  text-align: left;
+  line-height: 35px;
+  color: #fff;
+  background-color: #dc963f;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+#Fe-header .marquee {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+  margin-top: 20px;
+  width: 100%;
+  height: 431px;
+  background: url("https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/fe05.jpg") no-repeat center center / cover;
+  box-sizing: border-box;
+}
+#Fe-header .marquee img {
+  width: 100%;
+  height: 431px;
+}
+#Fe-header .footer {
+  margin-top: 50px;
+  text-align: center;
+  clear: both;
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#Fe-header .footer p {
+  padding-top: 15px;
+  height: 35px;
+  line-height: 35px;
 }
