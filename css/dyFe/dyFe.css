@@ -1,9 +1,119 @@
 #Fe-header {
   width: 100%;
 }
+#Fe-header .fe-nav {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #344a5c;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+#Fe-header .fe-nav ul li a {
+  color: #fff;
+  box-sizing: border-box;
+  float: left;
+  height: 50px;
+  padding: 10px 20px;
+  line-height: 30px;
+}
+#Fe-header .fe-nav ul li a:hover {
+  float: left;
+  height: 50px;
+  line-height: 30px;
+  padding: 10px 20px;
+  background: #ed7554;
+}
+#Fe-header .center {
+  width: 1226px;
+  margin: 0 auto;
+}
+#Fe-header .fl {
+  float: left;
+  width: 1000px;
+  height: 50px;
+}
+#Fe-header .center {
+  position: relative;
+  clear: both;
+  text-align: center;
+}
+#Fe-header .center .fe-title {
+  font-size: 18px;
+  height: 65px;
+  line-height: 65px;
+  font-weight: 600;
+}
 #Fe-header .fe-bg {
   width: 100%;
-  height: 90vh;
-  background: url("../../access/img/Subpage-Fe/fe02.jpg") no-repeat;
-  background-size: cover;
+  height: 500px;
+  display: block;
+  background: url("../../access/img/Subpage-Fe/fe02.png") center center / cover no-repeat;
+}
+#Fe-header .text_info,
+#Fe-header .mask {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.3);
+}
+#Fe-header .text_info .fe-spanTitle {
+  font-size: 18px;
+  display: block;
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 75px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #fff;
+}
+#Fe-header .text_info .fe-decoration {
+  width: 100%;
+  padding: 15px;
+  text-indent: 2rem;
+  text-align: left;
+  color: #fff;
+  line-height: 28px;
+}
+#Fe-header .ta-left {
+  text-align: left;
+  text-indent: 2rem;
+  line-height: 28px;
+  color: #fff;
+  padding-top: 15px;
+  padding-left: 75px;
+}
+#Fe-header .inner-nav {
+  cursor: pointer;
+  padding-top: 30px;
+  position: absolute;
+  left: 0;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+}
+#Fe-header .inner-nav li {
+  font-size: 16px;
+  color: skyblue;
+  list-style-type: circle;
+  margin-left: 40px;
+}
+#Fe-header .inner-nav li a:hover {
+  color: #7a0302;
+}
+#Fe-header .circle {
+  position: absolute;
+  right: 60px;
+  font-size: 30px;
+  top: 250px;
+  width: 35px;
+  height: 160px;
+  padding: 25px;
+  background-color: red;
+}
+#Fe-header .circle:hover {
+  color: #fff;
 }

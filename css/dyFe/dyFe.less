@@ -1,11 +1,135 @@
 #Fe-header {
   width: 100%;
 
-  .fe-bg {
+  .fe-nav {
+    box-sizing: border-box;
     width: 100%;
-    height: 90vh;
-    background: url("../../access/img/Subpage-Fe/fe02.jpg") no-repeat;
-    background-size: cover;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(52, 74, 92);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
   }
 
+  .fe-nav ul li a {
+    color: #fff;
+    box-sizing: border-box;
+    float: left;
+    height: 50px;
+    padding: 10px 20px;
+    line-height: 30px;
+  }
+
+  .fe-nav ul li a:hover {
+    float: left;
+    height: 50px;
+    line-height: 30px;
+    padding: 10px 20px;
+    background: #ed7554;
+  }
+
+  .center {
+    width: 1226px;
+    margin: 0 auto;
+  }
+
+  .fl {
+    float: left;
+    width: 1000px;
+    height: 50px;
+  }
+
+  .center {
+    position: relative;
+    clear: both;
+    text-align: center;
+  }
+
+  .center .fe-title {
+    font-size: 18px;
+    height: 65px;
+    line-height: 65px;
+    font-weight: 600;
+  }
+
+  .fe-bg {
+    width: 100%;
+    height: 500px;
+    display: block;
+    background: url("../../access/img/Subpage-Fe/fe02.png") center center/cover no-repeat;
+  }
+
+  .text_info,
+  .mask {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 500px;
+    background: rgba(0, 0, 0, .3);
+  }
+
+  .text_info .fe-spanTitle {
+    font-size: 18px;
+    display: block;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 75px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .text_info .fe-decoration {
+    width: 100%;
+    padding: 15px;
+    text-indent: 2rem;
+    text-align: left;
+    color: #fff;
+    line-height: 28px;
+  }
+
+  .ta-left {
+    text-align: left;
+    text-indent: 2rem;
+    line-height: 28px;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 75px;
+  }
+
+  .inner-nav {
+    cursor: pointer;
+    padding-top: 30px;
+    position: absolute;
+    left: 0;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .inner-nav li {
+    font-size: 16px;
+    color: skyblue;
+    list-style-type: circle;
+    margin-left: 40px;
+  }
+
+  .inner-nav li a:hover {
+    color: #7a0302;
+  }
+
+  .circle {
+    position: absolute;
+    right: 60px;
+    font-size: 30px;
+    top: 250px;
+    width: 35px;
+    height: 160px;
+    padding: 25px;
+    background-color: red;
+  }
+  .circle:hover{
+    color: #fff;
+  }
 }
