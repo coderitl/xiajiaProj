@@ -121,7 +121,8 @@
 #ac-header .e-info {
   box-sizing: border-box;
   float: left;
-  width: 320px;
+  max-width: 320px;
+  overflow: hidden;
   padding: 5px;
   border: 1px solid #d9882e;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
@@ -129,14 +130,17 @@
 #ac-header .e-info img {
   padding-top: 10px;
   width: 300px;
+  overflow: hidden;
   height: 274px;
+  display: inline-block;
 }
 #ac-header .footer {
+  color: #fff;
   width: 100%;
   margin-top: 330px;
   height: 150px;
   line-height: 35px;
-  background-color: rgba(232, 138, 28, 0.68);
+  background-color: rgba(229, 117, 73, 0.68);
 }
 #ac-header .footer p:nth-child(1) {
   padding-top: 15px;
@@ -144,4 +148,8 @@
 #ac-header .footer p {
   width: 100%;
   text-align: center;
+}
+#ac-header .e-info img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
 }
