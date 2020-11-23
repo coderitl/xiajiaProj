@@ -80,7 +80,6 @@
   text-align: center;
   line-height: 35px;
   display: inline-block;
-  transform: rotateY(-10px);
   text-shadow: 0 0 2px #f9b78d;
   border-bottom: 1px solid #ccc;
 }
