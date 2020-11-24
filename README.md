@@ -5,8 +5,10 @@
 >
 >
 ><a href="https://lovobin.github.io/Gansu-University-Painted-Pottery-Network/index.html">https://lovobin.github.io/Gansu-University-Painted-Pottery-Network/ </a>  （布局展示）
->
->
+
++ 尺寸标注图
+
+  ![尺寸标注图](https://img-blog.csdnimg.cn/20201124122625573.png)
 
 >  `ICO在线制作推荐:` https://tool.lu/favicon/
 >
@@ -344,6 +346,7 @@
 ###  2020年11月22日:
 
 + 添加第二个子页
++ ···
 
 
 
