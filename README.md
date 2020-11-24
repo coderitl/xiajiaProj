@@ -363,3 +363,7 @@
 + 效果图
 
   ![2020年11月23日:](https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/day03.png)
+
+###   2020年11月24日:
+
+![图片展览布局](https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/day04.png)
