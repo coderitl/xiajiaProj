@@ -1,21 +1,21 @@
 body {
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: #bd7c54;
+  word-break: break-word;
 }
 #bi-header {
   width: 996px;
-  margin: 0 auto;
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  margin: 50px auto;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 #bi-header .bi-textInfo {
   width: 100%;
   line-height: 35px;
-  color: #fff;
+  color: #eee;
 }
 #bi-header h2 {
   font-weight: 700;
   font-size: 20px;
-  color: #fff;
+  color: #eee;
   padding-top: 20px;
   padding-left: 15px;
 }
@@ -25,7 +25,34 @@ body {
   text-indent: 2rem;
 }
 #bi-header .bi-textInfo p span {
-  color: orangered;
+  color: #ccc;
+}
+#bi-header .fr {
+  margin-top: 10px;
+}
+#bi-header .fl:hover,
+#bi-header .fr:hover {
+  color: skyblue;
+  box-shadow: 0 -1px 20px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.5s;
+}
+#bi-header .fl .topFlImg {
+  float: right;
+  padding-top: 13px;
+  padding-left: 3px;
+  padding-right: 10px;
+  width: 198px;
+}
+#bi-header .fr .topFrImg {
+  float: left;
+  padding-top: 13px;
+  padding-left: 3px;
+  padding-right: 10px;
+  width: 230px;
+}
+#bi-header .marqueeImg {
+  width: 300px;
+  float: left;
 }
 #bi-header .goHome {
   display: inline-block;
@@ -42,4 +69,17 @@ body {
 }
 #bi-header .goHome:hover {
   color: #fff;
+}
+#bi-header .footer {
+  text-align: center;
+  clear: both;
+  width: 100%;
+  height: 150px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#bi-header .footer p {
+  padding-top: 15px;
+  height: 35px;
+  line-height: 35px;
 }

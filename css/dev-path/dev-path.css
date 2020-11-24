@@ -1,5 +1,9 @@
 body {
-  background: url("../../access/img/dev-path/dev-bg.jpg");
+  /*
+    localSrc: ../../access/img/dev-path/dev-bg.jpg
+    yunSrc: https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/dev-bg.jpg
+ */
+  background: url("https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/dev-bg.jpg");
 }
 #dev-header {
   width: 100%;
