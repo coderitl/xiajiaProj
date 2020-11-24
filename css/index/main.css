@@ -96,6 +96,8 @@ S: main
     padding: 20px 0 0;
     font-size: 15px;
     cursor: pointer;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 #main .text-line {
