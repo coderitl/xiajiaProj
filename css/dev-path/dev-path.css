@@ -1,0 +1,118 @@
+body {
+  background: url("../../access/img/dev-path/dev-bg.jpg");
+}
+#dev-header {
+  width: 100%;
+}
+#dev-header .dev-imgBox {
+  display: inline-block;
+}
+#dev-header .dev-show {
+  box-sizing: border-box;
+  position: relative;
+  padding: 40px;
+  width: 1226px;
+  height: 600px;
+  margin: 50px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  background: rgba(255, 255, 255, 0.8);
+}
+#dev-header .dev-textBox {
+  position: absolute;
+  left: 500px;
+  top: 3px;
+}
+#dev-header .dev-textBox span {
+  display: block;
+  padding: 25px;
+  color: #323232;
+  line-height: 50px;
+  text-indent: 2rem;
+}
+#dev-header .dev-textBox span:hover {
+  display: block;
+  padding: 25px;
+  color: #000;
+  text-shadow: 0 0 2px rgba(149, 64, 16, 0.5);
+  line-height: 50px;
+  text-indent: 2rem;
+  transition: all 0.8s ease-in-out;
+}
+#dev-header .dev-title {
+  font-size: 35px;
+  margin-top: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #ccc;
+}
+#dev-header .inner-Img {
+  position: absolute;
+  right: 210px;
+  bottom: 48px;
+}
+#dev-header .inner-Img img {
+  width: 326px;
+}
+#dev-header .iner-text {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  bottom: 55px;
+  width: 675px;
+  height: 194px;
+  overflow: hidden;
+  line-height: 30px;
+  padding: 10px;
+}
+#dev-header .iner-text span {
+  display: block;
+  text-indent: 2rem;
+}
+#dev-header .iner-text:hover {
+  background-color: #d7421d;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease-in-out;
+}
+#dev-header .dev-footer {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.5);
+}
+#dev-header .dev-footer p {
+  padding-top: 15px;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+}
+#dev-header .goHome {
+  position: fixed;
+  right: 42px;
+  bottom: 100px;
+}
+#dev-header .goHome a {
+  display: block;
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  background: red;
+}
+#dev-header .goHome a:hover {
+  display: block;
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  color: #000;
+  text-align: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  transition: all .5s ;
+  text-shadow: 0 0 2px rgba(224, 14, 20, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
