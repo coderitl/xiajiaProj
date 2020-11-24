@@ -142,6 +142,9 @@
 #Fe-header .fe-ImgL {
   width: 1227px;
 }
+#Fe-header .maskImg {
+  margin-top: 20px;
+}
 #Fe-header .fe-ImgR,
 #Fe-header .imgTop {
   width: 613px;

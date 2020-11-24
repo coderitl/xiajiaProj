@@ -1,0 +1,16 @@
+#bi-header {
+  width: 100%;
+}
+#bi-header .bi-textInfo {
+  width: 100%;
+  line-height: 35px;
+}
+#bi-header h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+#bi-header .bi-textInfo p {
+  padding-top: 5px;
+  padding-left: 15px;
+  text-indent: 2rem;
+}
