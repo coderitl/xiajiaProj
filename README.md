@@ -348,9 +348,18 @@
 ###  2020年11月22日:
 
 + 添加第二个子页
-+ ···
 
++ `box-shadow`
 
++ `text-shadow`
++ `<marquee> </marquee>`
 
+###  2020年11月23日:
 
++ `background: linear-gradient();`
 
++ `定位`
+
++ 效果图
+
+  ![2020年11月23日:](https://gitee.com/wang_hong_bin/pic-go-photos/raw/master/day03.png)
