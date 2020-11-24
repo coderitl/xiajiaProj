@@ -27,3 +27,18 @@ body {
 #bi-header .bi-textInfo p span {
   color: orangered;
 }
+#bi-header .goHome {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  position: fixed;
+  top: 600px;
+  right: 25px;
+  background-color: orange;
+}
+#bi-header .goHome:hover {
+  color: #fff;
+}
