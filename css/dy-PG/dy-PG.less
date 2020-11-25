@@ -1,0 +1,143 @@
+body {
+  background: url("../../access/img/dyC-p/Cp-bg.jpg");
+}
+
+#dy-PG {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  .dy-pg {
+    width: 996px;
+    height: 600px;
+    margin: 10px auto;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, .5);
+  }
+
+  .pg-title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #eee;
+    text-align: center;
+  }
+
+  .dy-pg p span {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    height: 30px;
+    line-height: 40px;
+    display: block;
+  }
+
+  .dy-pg p span:nth-child(1) {
+    font-size: 22px;
+  }
+
+  .dy-pg p span:nth-child(2) {
+    font-size: 20px;
+  }
+
+  .pg-arrow {
+    position: relative;
+    margin-top: -300px;
+    transform: translate(0, -50%);
+  }
+
+  .pg-arrow a {
+
+    width: 40px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: red;
+    color: #fff;
+    text-align: center;
+  }
+
+  .pg-arrow a {
+    display: none;
+  }
+
+  .pg-left {
+    left: 290px;
+
+  }
+
+  .pg-right {
+    right: 290px;
+  }
+
+  .dy-ol {
+    position: relative;
+  }
+
+  .dy-ol ol {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 12px;
+    bottom: -260px;
+    left: 700px;
+    background-color: rgba(255, 255, 255, .5);
+  }
+
+  .dy-pg:hover + .pg-arrow > a {
+    display: block;
+  }
+
+  .dy-ol ol li {
+    text-align: center;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    float: left;
+    margin: 6px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: -100px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: #eee;
+  }
+
+  .topH {
+    padding-top: 20px;
+  }
+
+  .footer p {
+    height: 35px;
+    line-height: 35px;
+  }
+  .goHome{
+    position: absolute;
+   bottom: 80px;
+    right: 20px;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    color: #eee;
+    background-color: rgba(0,0,0,.4);
+  }
+  .goHome a:hover{
+    color: orangered;
+    transition: color .3s;
+  }
+}
